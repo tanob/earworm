@@ -64,7 +64,7 @@ module Earworm
 
       data = io.read(read_bytes)
       info[:fpt] = Ofa::create_fingerprint(data, read_bytes/2,
-                                           info[:in_samplerate], 1)
+                                           info[:in_samplerate], true)
       info
     end
 

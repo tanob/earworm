@@ -9,7 +9,7 @@ require 'earworm'
 Hoe.new('earworm', Earworm::VERSION) do |p|
   p.developer('Aaron Patterson', 'aaronp@rubyforge.org')
   p.description     = p.paragraphs_of('README.txt', 3..8).join("\n\n")
-  p.extra_deps = [['icanhasaudio', '>=0.1.1'], ['ofa']]
+  p.extra_deps = [['icanhasaudio', '>=0.1.1'], ['ofa', '>=1.2']]
 end
 
 # vim: syntax=Ruby
