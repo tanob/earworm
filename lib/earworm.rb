@@ -10,7 +10,7 @@ require 'rexml/parsers/pullparser'
 require 'net/http'
 
 module Earworm
-  VERSION = '0.0.2'
+  VERSION = '0.0.3'
   URL = 'http://ofa.musicdns.org/ofa/1/track'
   class << self
     def ofa_version
